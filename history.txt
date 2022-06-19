@@ -1,0 +1,80 @@
+    1  cd ~/downloads/
+    2  git ==version
+    3  git --version
+    4  ls
+    5  cd..
+    6  cd ..
+    7  cd ..
+    8  ls
+    9  cd usr
+   10  ls
+   11  mkdir Londiwe
+   12  cd downloads
+   13  cd Londiwe
+   14  ls
+   15  cd ..
+   16  cd ..
+   17  cd c/
+   18  ls
+   19  cd Users
+   20  ls
+   21  cd londi
+   22  ls
+   23  cd Documents
+   24  ls
+   25  mkdir git sessions
+   26  ls
+   27  rm -r git
+   28  ls
+   29  rm -r sessions
+   30  mkdir 'git sessions'
+   31  ls
+   32  cd 'git sessions'
+   33  mkdir git-basic-exercises
+   34  ls
+   35  cd git-basic-exercises
+   36  git init
+   37  ls -a
+   38  git status
+   39  touch README.md
+   40  ls -a
+   41  git status
+   42  git log
+   43  git add .
+   44  git status
+   45  git commit -m "initial commit"
+   46  git log
+   47  nano README.md
+   48  cat README.md
+   49  git status
+   50  git add .
+   51  git status
+   52  git log
+   53  git commit -m "second commit"
+   54  git status
+   55  git log
+   56  nano README.md
+   57  cat README.md
+   58  git status
+   59  git add .
+   60  git commit -m "third commit"
+   61  cat README.md
+   62  git log
+   63  git checkout bbf44d2d483236e8d6aedcd0fa4f85a904305b75
+   64  cat README.md
+   65  git checkout master
+   66  git branch
+   67  git checkout -b milkshake-flavours
+   68  git branch
+   69  git checkout master
+   70  git checkout milkshake-flavours
+   71  nano milkshakes.md
+   72  git status
+   73  git add .
+   74  git commit -m "added initial flavours"
+   75  git log
+   76  git checkout master
+   77  git checkout -b history
+   78  git log
+   79  git branch
+   80  history > history.txt
